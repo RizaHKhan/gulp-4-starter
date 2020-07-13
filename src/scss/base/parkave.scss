@@ -1,0 +1,393 @@
+a {
+  text-decoration: none;
+}
+
+.container {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.box-shadow {
+  box-shadow: 1px 1px 3px rgba(0,0,0,.05);
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0px 15px;
+  width: 100%;
+}
+
+.row-no-pad {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.col-auto {
+  box-sizing: border-box;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.col-1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 8.333%;
+  padding: 5px;
+}
+
+.col-2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 16.667%;
+  padding: 5px;
+}
+
+.col-3 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 25%;
+  padding: 5px;
+}
+
+.col-4 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 33.333%;
+  padding: 5px;
+}
+
+.col-5 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 42.6667%;
+  padding: 5px;
+}
+
+.col-6 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  padding: 5px;
+}
+
+.col-7 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 58.333%;
+  padding: 5px;
+}
+
+.col-8 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 66.667%;
+  padding: 5px;
+}
+
+.col-9 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 75%;
+  padding: 5px;
+}
+
+.col-10 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 83.333%;
+  padding: 5px;
+}
+
+.col-11 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 91.667%;
+  padding: 5px;
+}
+
+.col-12 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 100%;
+  padding: 5px;
+}
+
+.height-auto {
+  box-sizing: border-box;
+  flex: auto;
+  padding: 5px;
+}
+
+.height-1, .height-2, .height-3, .height-4, .height-5, .height-6, .height-7, .height-8, .height-9, .height-10, .height-11, .height-12 {
+  box-sizing: border-box;
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+}
+
+.height-1 {
+  flex: 8.333%;
+}
+
+.height-2 {
+  flex: 16.667%;
+}
+
+.height-3 {
+  flex: 25%;
+}
+
+.height-4 {
+  flex: 33.333%;
+}
+
+.height-5 {
+  flex: 42.6667%;
+}
+
+.height-6 {
+  flex: 50%;
+}
+
+.height-7 {
+  flex: 58.333%;
+}
+
+.height-8 {
+  flex: 66.667%;
+}
+
+.height-9 {
+  flex: 75%;
+}
+
+.height-10 {
+  flex: 83.333%;
+}
+
+.height-11 {
+  flex: 91.667%;
+}
+
+.height-12 {
+  flex: 100%;
+}
+
+.height-col {
+  flex-direction: column;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.btn {
+  background: white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.btn-expand {
+  width: 100%;
+  margin: 0;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.rounded-5 {
+  border-radius: 5px;
+}
+
+.background-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.background-contain {
+  background-size: contain;
+}
+
+.background-cover {
+  background-size: cover;
+}
+
+.header {
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0;
+}
+
+.sub-header {
+  color: #5F5C68;
+  padding: 5px;
+  margin: 0;
+}
+
+.p-lg {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.p-md {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.p-sm {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bg-blue {
+  background-color: #3344FF;
+  color: white;
+}
+
+.bg-dark {
+  background-color: #1B1728;
+  color: white;
+}
+
+.bg-med {
+  background-color: #312E3D;
+  color: white;
+}
+
+.bg-lightgray {
+  background-color: #5F5C68;
+  color: white;
+}
+
+.bg-light {
+  background-color: #F3F3F4;
+  color: black;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.padding-5 {
+  padding: 5px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.position-center {
+  left: 50%;
+  top: 50%;
+  margin: auto;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+// margin auto on the y-axis
+.my-auto {
+  margin: auto 0; 
+}
+
+// margin auto on the x-axis
+.mx-auto {
+  margin: 0 auto; 
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-center {
+  justify-content: center;
+}
+
+.red {
+  border: solid 1px red;
+}
+
+.contain {
+  background-size: contain;
+}
+
+.cover {
+  background-size: cover;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
+.macOS {
+  height: 100%;
+  width: 100%;
+}
+
+.blue {
+  border: solid 1px blue;
+}
