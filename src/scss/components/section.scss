@@ -1,12 +1,13 @@
 @use '../base/variables' as vars;
 
 section {
-  padding: 100px 0;
+  padding: 2em;
   text-align: center;
   background-color: vars.$secondary-color;
   color: vars.$text-color;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   h2 {
     font-size: 28px;
